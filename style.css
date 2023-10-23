@@ -1,0 +1,136 @@
+body{
+  background-color: #ECC577;
+  font-family: 'Raleway';
+}
+
+.card:first-child{
+  margin: 50px auto;
+  color: #f9a50f;
+}
+
+.card{
+  margin: 50px auto;
+  background-color: white;
+  opacity: 0.9;
+  font-family: Roboto;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.6);
+  padding-bottom: 20px;
+  border-color: burlywood;
+  opacity: 0.9;
+}
+
+@media (max-width: 960px) {
+  /* 对于屏幕小于960px的情况，这个CSS将被读取 */
+  .container {
+    width: 650px;
+  }
+  .card{
+    width: 650px;
+    align-content: center;
+  }
+}
+@media (max-width: 720px) {
+  /* 对于屏幕小于720px的情况，这个CSS将被读取 */
+  .container {
+    width: 450px;
+  }
+  .card{
+    width: 450px;
+    align-content: center;
+  }
+  .img-circle{
+    padding: 10px 0px 0px 0px;
+    border-radius: 50%;
+    width: 150px;
+    opacity: 1.0;
+  }
+}
+@media (max-width: 540px) {
+  /* 对于屏幕小于540px的情况，这个CSS将被读取 */
+  .container {
+    width: 300px;
+  }
+  .card{
+    width: 300px;
+    align-content: center;
+  }
+  .img-circle{
+    padding: 10px 0px 0px 0px;
+    border-radius: 50%;
+    width: 80px;
+    opacity: 1.0;
+  }
+}
+
+
+h1{
+  font-size: 60px;
+  font-family:'Roboto';
+  color: red;
+}
+
+h1:hover{
+  font-size: 65px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+
+h2{
+ font: black;
+ font-size: 30px;
+ font-family:'Roboto';
+ background-color: #f9a50f;
+}
+
+h2:hover{
+  font-size: 35px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+.img-circle{
+  padding: 10px 0px 0px 0px;
+  border-radius: 50%;
+  width: 250px;
+  opacity: 1.0;
+}
+
+p{
+padding-bottom: 10px;
+font-family: 'Roboto';
+}
+
+li{
+  font-size: 50px;
+}
+
+.button{
+ background-color: yellow;
+ color: green;
+ border-radius: 20px;
+ padding: 10px 10px 10px 10px;
+ font-weight: bold;
+}
+
+.list-horizontal {
+  padding: 0;
+  list-style: none;
+  ;
+}
+
+
+.list-horizontal >li {
+  display: inline-block;;
+  padding-right: 20px;
+  padding-left: 20px;
+  ;
+}
+
+i{
+  color: rgb(54, 90, 211)
+}
